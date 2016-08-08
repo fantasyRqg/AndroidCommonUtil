@@ -13,18 +13,12 @@
              tools:context="com.rqg.common.utils.MainActivity">
 
 
-    <com.rqg.common.view.SideView
-        android:id="@id/refresh_content"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        app:focusColor="#F58723"
-        app:leftText="横屏"
-        app:radius="2dp"
-        app:rightText="竖屏"
-        app:strokeWidth="1dp"
-        app:textPaddingHorizontal="15dp"
-        app:textPaddingVertical="12dp"
-        app:textSize="15dp"
-        app:unfocusColor="#ffffff"/>
+    <com.rqg.common.view.SingleView
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        app:active_color="#fa8806"
+        app:column_count="5"
+        app:gap_ratio="0.5"
+        app:negative_color="#cccccc"
+        app:start_ratio="1.5"/>
 </FrameLayout>

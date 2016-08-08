@@ -13,4 +13,12 @@
         <attr name="textPaddingHorizontal" format="dimension"/>
 
     </declare-styleable>
+
+    <declare-styleable name="SingleView">
+        <attr name="active_color" format="color"/>
+        <attr name="negative_color" format="color"/>
+        <attr name="column_count" format="integer"/>
+        <attr name="gap_ratio" format="float"/>
+        <attr name="start_ratio" format="float"/>
+    </declare-styleable>
 </resources>
