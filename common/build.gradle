@@ -32,7 +32,7 @@ dependencies {
 
 def MAVEN_LOCAL_PATH = 'http://112.124.27.178:9093/repository/maven-releases/'
 def ARTIFACT_ID = 'android-common'
-def VERSION_NAME = '1.1.1'
+def VERSION_NAME = '1.1.2'
 def GROUP_ID = 'cn.bong.android'
 
 def user_name = 'admin'
