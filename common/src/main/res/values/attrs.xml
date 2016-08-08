@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SideView">
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="focusColor" format="color"/>
+        <attr name="unfocusColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="textPaddingVertical" format="dimension"/>
+        <attr name="textPaddingHorizontal" format="dimension"/>
+
+    </declare-styleable>
+</resources>
